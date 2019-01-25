@@ -1,5 +1,7 @@
 /**
  * Simple utility to extend String features.
+ * Copyright Lemuel Raganas
+ * Released under the MIT license
  */
 
 const Util = require('./util');

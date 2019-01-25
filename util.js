@@ -1,7 +1,8 @@
 /**
  * Simple value utility
  * 
- * @author Lemuel Raganas <lemuel.raganas@gmail.com>
+ * Copyright Lemuel Raganas
+ * Released under the MIT license
  **/
 
 /**

@@ -1,7 +1,8 @@
 /**
  * Simple URL utility for javascript
  * 
- * @author Lemuel Raganas <lemuel.raganas@gmail.com>
+ * Copyright Lemuel Raganas
+ * Released under the MIT license
  **/
 
 var LibUrl = require('url');

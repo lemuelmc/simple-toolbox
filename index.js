@@ -1,3 +1,10 @@
+/**
+ * Simple Utility Library
+ * 
+ * Copyright Lemuel Raganas
+ * Released under MIT license
+ */
+
 var SimpleEvent = require('./event');
 var SimpleGuid = require('./guid');
 var SimpleLog = require('./log');
