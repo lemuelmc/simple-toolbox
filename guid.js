@@ -4,8 +4,8 @@
  * @author Lemuel Raganas <lemuel.raganas@gmail.com>
  **/
 
-import * as local from './simple-guid';
-import * as Val from './simple-val';
+import * as SimpleGuid from './guid';
+import * as SimpleUtil from './util';
 
 /**
  * 
@@ -15,7 +15,7 @@ import * as Val from './simple-val';
 export function isValid(guid) {
     var pat = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 
-    if (Val.isNull(guid)) {
+    if (SimpleUtil.isNull(guid)) {
         return false;
     }
 

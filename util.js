@@ -3,7 +3,7 @@
  * 
  * @author Lemuel Raganas <lemuel.raganas@gmail.com>
  **/
-import * as local from './simple-val';
+import * as local from './util';
 
 /**
  * 

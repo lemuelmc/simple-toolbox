@@ -5,7 +5,7 @@
  **/
 
 var LibUrl = require('url');
-var Val = require('./simple-val');
+var SimpleUtil = require('./util');
 
 class SimpleUrljs {
 
@@ -26,7 +26,7 @@ class SimpleUrljs {
     searchParam(param) {
         var results = new RegExp('[\?&]' + param + '=([^&#]*)').exec(this.url);
 
-        if (Val.isNull(results)) {
+        if (SimpleUtil.isNull(results)) {
             return null;
         }
 
