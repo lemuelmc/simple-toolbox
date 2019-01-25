@@ -3,7 +3,6 @@
  * 
  * @author Lemuel Raganas <lemuel.raganas@gmail.com>
  **/
-import * as local from './util';
 
 /**
  * 
@@ -11,6 +10,19 @@ import * as local from './util';
  */
 export function isNull(o) {
     if (o === undefined || o === null) {
+        return true;
+    }
+
+    return false;
+}
+
+/**
+ * 
+ * @param {any} o
+ * @returns {bool} 
+ */
+export function isUndefined(o) {
+    if (o === undefined) {
         return true;
     }
 

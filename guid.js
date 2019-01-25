@@ -4,8 +4,7 @@
  * @author Lemuel Raganas <lemuel.raganas@gmail.com>
  **/
 
-import * as SimpleGuid from './guid';
-import * as SimpleUtil from './util';
+var SimpleUtil = require('./util');
 
 /**
  * 
