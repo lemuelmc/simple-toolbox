@@ -10,11 +10,6 @@ var EventGuest = require('./module/event-guest');
 class SimpleEvent {
 
     constructor() {
-        this.info = {
-            author: 'Lemuel Raganas <lemuel.raganas@gmail.com>',
-            version: '0.0.1'
-        };
-
         // Each guest belongs to a table. A table must be a unique name.
         this._tables = {};
         this._tableNames = [];
