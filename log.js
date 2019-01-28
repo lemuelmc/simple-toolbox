@@ -6,7 +6,7 @@
  **/
 
 
-class SimpleLogjs {
+class SimpleLog {
 
     /**
      * 
@@ -56,4 +56,4 @@ class SimpleLogjs {
     }
 }
 
-module.exports = SimpleLogjs
+module.exports = SimpleLog

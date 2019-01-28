@@ -8,7 +8,7 @@
 var LibUrl = require('url');
 var SimpleUtil = require('./util');
 
-class SimpleUrljs {
+class SimpleUrl {
 
     /**
      * 
@@ -39,4 +39,4 @@ class SimpleUrljs {
     }
 }
 
-module.exports = SimpleUrljs;
+module.exports = SimpleUrl;
