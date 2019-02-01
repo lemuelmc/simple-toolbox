@@ -1,6 +1,6 @@
 {
   "name": "simple-toolbox",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple utility library",
   "main": "index.js",
   "scripts": {
@@ -20,9 +20,7 @@
   "devDependencies": {
     "eslint": "^5.12.1",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.16.0"
-  },
-  "dependencies": {
+    "eslint-plugin-import": "^2.16.0",
     "eslint-config-airbnb": "^17.1.0"
   }
 }
