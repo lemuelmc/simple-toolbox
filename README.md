@@ -4,6 +4,10 @@ A very simple utility library for javascript
 
 ## Installation
 
+```bash
+npm install simple-toolbox
+```
+
 ## Usage
 
 ## License
