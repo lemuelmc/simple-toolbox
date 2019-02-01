@@ -56,4 +56,4 @@ class SimpleLog {
     }
 }
 
-module.exports = SimpleLog
+module.exports = SimpleLog;
