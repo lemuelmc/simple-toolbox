@@ -1,21 +1,21 @@
 /**
  * Simple Utility Library
- * 
+ *
  * Copyright Lemuel Raganas
  * Released under MIT license
  */
 
-var SimpleEvent = require('./event');
-var SimpleGuid = require('./guid');
-var SimpleLog = require('./log');
-var SimpleUtil = require('./util');
-var SimpleUrl = require('./url');
-var SimpleString = require('./string');
+import './util';
+import SimpleEvent from './event';
+import SimpleGuid from './guid';
+import SimpleLog from './log';
+import SimpleUrl from './url';
+import SimpleString from './string';
 
-module.exports = {
-    SimpleEvent,
-    SimpleGuid,
-    SimpleLog,
-    SimpleUrl,
-    SimpleString
-}
+export default {
+	SimpleEvent,
+	SimpleGuid,
+	SimpleLog,
+	SimpleUrl,
+	SimpleString,
+};

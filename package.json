@@ -1,6 +1,6 @@
 {
   "name": "simple-toolbox",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple utility library",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,13 @@
     "library"
   ],
   "author": "Lemuel Raganas <lemuel.raganas@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^17.1.0"
+  }
 }
