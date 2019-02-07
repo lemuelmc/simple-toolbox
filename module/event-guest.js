@@ -20,4 +20,4 @@ class EventGuest {
 	}
 }
 
-module.exports = EventGuest;
+export default EventGuest;

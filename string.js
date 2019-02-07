@@ -7,12 +7,12 @@
  * Released under the MIT license
  */
 
-const Util = require('./util');
+import { isNull } from './util';
 
 (function () {
 	if (!String.prototype.endsWith) {
 		String.prototype.endsWith = function (needle) {
-			if (Util.isNull(needle)) {
+			if (isNull(needle)) {
 				return false;
 			}
 			const pos = needle.length > 0 ? this.length - needle.length : 0;
@@ -22,7 +22,7 @@ const Util = require('./util');
 
 	if (!String.prototype.startsWith) {
 		String.prototype.startsWith = function (needle) {
-			if (Util.isNull(needle)) {
+			if (isNull(needle)) {
 				return false;
 			}
 			return this.indexOf(needle) === 0;

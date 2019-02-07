@@ -5,7 +5,7 @@
  * Released under the MIT license
  * */
 
-const SimpleUtil = require('./util');
+import * as SimpleUtil from './util';
 
 /**
  *

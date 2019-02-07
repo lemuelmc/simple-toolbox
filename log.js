@@ -63,4 +63,4 @@ class SimpleLog {
 	}
 }
 
-module.exports = SimpleLog;
+export default SimpleLog;

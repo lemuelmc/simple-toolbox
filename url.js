@@ -7,8 +7,8 @@
  * Released under the MIT license
  * */
 
-const LibUrl = require('url');
-const SimpleUtil = require('./util');
+import { parse } from 'url';
+import { isNull } from './util';
 
 class SimpleUrl {
 	/**
@@ -17,7 +17,7 @@ class SimpleUrl {
      */
 	constructor(url) {
 		this.url = url;
-		this.libUrl = LibUrl.parse(url);
+		this.libUrl = parse(url);
 	}
 
 	/**
@@ -28,7 +28,7 @@ class SimpleUrl {
 	searchParam(param) {
 		const results = new RegExp('[\?&]' + param + '=([^&#]*)').exec(this.url);
 
-		if (SimpleUtil.isNull(results)) {
+		if (isNull(results)) {
 			return null;
 		}
 
@@ -36,4 +36,4 @@ class SimpleUrl {
 	}
 }
 
-module.exports = SimpleUrl;
+export default SimpleUrl;
