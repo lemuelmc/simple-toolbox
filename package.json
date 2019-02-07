@@ -1,6 +1,6 @@
 {
   "name": "simple-toolbox",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simple utility library",
   "main": "index.js",
   "scripts": {
